@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'app_name' => 'Gestion Étudiant',
+    'all_rights_reserved' => 'Tous droits réservés',
     'dashboard' => 'Dashboard',
     'students' => 'Students',
     'add_student' => 'Add Student',
@@ -44,9 +46,7 @@ return [
     'language' => 'Language',
     'french' => 'French',
     'english' => 'English',
-    
-    'all_rights_reserved' => 'All rights reserved',
-    
+        
     'welcome_greeting' => 'Hello :username, here is an overview of your system.',
     'current_date' => 'Current date',
     'id' => 'ID',
@@ -54,6 +54,5 @@ return [
     'title_delete' => 'Delete',
     'login_to_access' => 'to access the system',
     'test_credentials' => 'Test: admin / admin123',
-    'app_name' => 'Student Management',
     'required_field' => '*',
 ];

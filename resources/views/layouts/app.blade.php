@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ __('messages.dashboard') }}</title>
+    <title>{{ config('app.name') }}</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -69,7 +69,10 @@
     </main>
     
     <footer>
-        <p>&copy; {{ date('Y') }} {{ __('messages.dashboard') }}. {{ __('messages.all_rights_reserved') }}</p>
+        <p>
+            &copy; {{ date('Y') }} {{ __('messages.app_name') }}.
+            {{ __('messages.all_rights_reserved') }}
+        </p>
     </footer>
     
     <script src="{{ asset('js/main.js') }}"></script>
